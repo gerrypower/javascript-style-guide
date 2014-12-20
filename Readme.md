@@ -1,13 +1,11 @@
-# Node.js Style Guide
+# JavaScript Style Guide
 
-This is a guide for writing consistent and aesthetically pleasing node.js code.
-It is inspired by what is popular within the community, and flavored with some
-personal opinions.
+This is a guide for writing consistent and aesthetically pleasing JavaScript code.
 
 There is a .eslintrc which enforces these rules as closely as possible.
 
-This guide was created by [Felix Geisendörfer](http://felixge.de/) and is
-licensed under the [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
+This guide was forked from [Felix Geisendörfer](http://felixge.de/) for changes
+particular to my JavaScript code style. It is licensed under the [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
 license. You are encouraged to fork this repository and make adjustments
 according to your preferences.
 
