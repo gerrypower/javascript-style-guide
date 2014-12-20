@@ -2,7 +2,7 @@
 
 This is a guide for writing consistent and aesthetically pleasing JavaScript code.
 
-There is a .eslintrc which enforces these rules as closely as possible.
+There is an [ESLint](http://eslint.org) .eslintrc which enforces these rules as closely as possible.
 
 This guide was forked from [Felix Geisendörfer](http://felixge.de/) for changes
 particular to my JavaScript code style. It is licensed under the [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/)
