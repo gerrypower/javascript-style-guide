@@ -151,9 +151,8 @@ User.findOne({ name: 'foo' }).populate('bar')
 ## Declare one variable per var statement
 
 Declare one variable per var statement, it makes it easier to re-order the
-lines. However, ignore [Crockford][crockfordconvention] when it comes to
-declaring variables deeper inside a function, just put the declarations wherever
-they make sense.
+lines. However, do not ignore [Crockford][crockfordconvention] when it comes to
+declaring variables deeper inside a function; put all declarations at the top.
 
 *Right:*
 
