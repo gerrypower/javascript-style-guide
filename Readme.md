@@ -31,6 +31,7 @@ according to your preferences.
 * [Use slashes for comments](#use-slashes-for-comments)
 * [Object.freeze, Object.preventExtensions, Object.seal, with, eval](#objectfreeze-objectpreventextensions-objectseal-with-eval)
 * [Getters and setters](#getters-and-setters)
+* [Filenames](#filenames)
 
 ## 2 Spaces for indention
 
@@ -524,5 +525,25 @@ software than they can solve.
 
 Feel free to use getters that are free from [side effects][sideeffect], like
 providing a length property for a collection class.
+
+## Filenames
+
+Use lowercase for filenames with hyphens to separate words.
+
+*Right:*
+
+```js
+main.js
+session-store.js
+virtual-space.js
+```
+
+*Wrong:*
+
+```js
+Main.js
+sessionStore.js
+virtual_space.js
+```
 
 [sideeffect]: http://en.wikipedia.org/wiki/Side_effect_(computer_science)
